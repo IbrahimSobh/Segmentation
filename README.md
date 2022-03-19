@@ -10,7 +10,7 @@ This work is based on [MMSegmentation](https://github.com/open-mmlab/mmsegmentat
 
 ## 10 Semantic segmentors
 
-| Detector      | Paper         |
+| Segmentor     | Paper         |
 | ------------- |:-------------:|
 | [FCN](https://arxiv.org/abs/1411.4038)    | Fully Convolutional Networks for Semantic Segmentation (2017)
 | [U-net](https://arxiv.org/abs/1505.04597)    | Convolutional networks for biomedical image segmentation (2015)
@@ -39,19 +39,34 @@ result = inference_segmentor(model, img)
 model.show_result(img, result, out_file='result.jpg', win_name=m_name)
 ```
 
+### Results
 
-![res_yolof](images/ss01.png)
+| Segmentor     | Result         |
+| ------------- |:-------------:|
+| [FCN](https://arxiv.org/abs/1411.4038)    | ![res_yolof](images/fcn.png)
+| [U-net](https://arxiv.org/abs/1505.04597)    | ![res_yolof](images/unet.png)
+| [PSPNet](https://arxiv.org/abs/1612.01105)    | ![res_yolof](images/pspnet.png)
+| [DeepLabV3](https://arxiv.org/abs/1706.05587)    | ![res_yolof](images/deeplab.png)
+| [UPerNet](https://arxiv.org/pdf/1807.10221.pdf)    | ![res_yolof](images/upernet.png)
+| [CCNet](https://arxiv.org/abs/1811.11721)    | ![res_yolof](images/ccnet.png)
+| [FastFCN](https://arxiv.org/abs/1903.11816)    | ![res_yolof](images/fastfcn.png)
+| [SETR](https://arxiv.org/abs/2012.15840)    | ![res_yolof](images/setr.png)
+| [Segmenter](https://arxiv.org/abs/2105.05633)    | ![res_yolof](images/segmenter.png)
+| [SegFormer](https://arxiv.org/abs/2105.15203)    | ![res_yolof](images/segformer.png)
+
 
 
 -----
 
 ## Fine tune semantic segmentors on a custom dataset
 
+To do 
 
 -----
 
 ## Design and train your own object semantic segmentor
 
+To do 
 
 
 Regards! 
