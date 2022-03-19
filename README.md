@@ -25,7 +25,7 @@ This work is based on [MMSegmentation](https://github.com/open-mmlab/mmsegmentat
 | [Segmenter](https://arxiv.org/abs/2105.05633)    | Transformer for Semantic Segmentation (2021)
 | [SegFormer](https://arxiv.org/abs/2105.15203)    | Simple and Efficient Design for Semantic Segmentation with Transformers (2021)
 
-![res_yolof](images/ss01.png)
+![res_yolof](https://github.com/open-mmlab/mmsegmentation/raw/master/resources/seg_demo.gif)
 
 -----
 
