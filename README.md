@@ -8,7 +8,7 @@ In this tutorial, you will:
 This work is based on [MMSegmentation](https://github.com/open-mmlab/mmsegmentation): [OpenMMLab](https://github.com/open-mmlab) segmentation toolbox and benchmark.
 
 
-## 10 Object detectors
+## 10 Semantic segmentors
 
 | Detector      | Paper         |
 | ------------- |:-------------:|
@@ -24,3 +24,33 @@ This work is based on [MMSegmentation](https://github.com/open-mmlab/mmsegmentat
 | [SegFormer](https://arxiv.org/abs/2105.15203)    | Simple and Efficient Design for Semantic Segmentation with Transformers (2021)
 
 -----
+
+## Perform inference 
+
+<a href="https://colab.research.google.com/drive/1WJtghM5munkksP2CZQ90fiVTYkSL3e3S?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+Here is how to load a pretrained model, perfrom inference and vizualize the results.
+
+```
+model = init_segmentor(config, checkpoint, device='cuda:0')
+result = inference_segmentor(model, img)
+model.show_result(img, result, out_file='result.jpg', win_name=m_name)
+```
+
+
+![res_yolof](images/res_yolof.png)
+
+
+-----
+
+## Fine tune semantic segmentors on a custom dataset
+
+
+-----
+
+## Design and train your own object semantic segmentor
+
+
+
+Regards! 
+
