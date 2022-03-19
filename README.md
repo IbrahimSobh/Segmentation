@@ -1,5 +1,7 @@
 #  Semantic segmentation
 
+Semantic image segmentation is the task of classifying each pixel in an image from a predefined set of classes.
+
 In this tutorial, you will:
 - Perform inference with 10 well-known semantic segmentors <a href="https://colab.research.google.com/drive/1WJtghM5munkksP2CZQ90fiVTYkSL3e3S?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 - Fine tune semantic segmentors on a custom dataset (to do)
