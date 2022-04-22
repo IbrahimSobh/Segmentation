@@ -67,8 +67,8 @@ model.show_result(img, result, out_file='result.jpg', win_name=m_name)
 
 <a href="https://colab.research.google.com/drive/1e6QgCHvfcm54pSSv0Cf4GiUlpNPXoMxv?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-- Select a semantic segmentation model: SEgmentation TRansformer (SETR)
-- Add a new dataset class.
+- Select a semantic segmentation model: **SEgmentation TRansformer** [SETR](https://arxiv.org/abs/2012.15840)
+- Add a new dataset class: [Scene Understanding Datasets](http://dags.stanford.edu/projects/scenedataset.html)
 - Create a config file.
 - Conduct training and evaluation.
 
@@ -81,10 +81,10 @@ model.show_result(img, result, out_file='result.jpg', win_name=m_name)
 
 <a href="https://colab.research.google.com/drive/1EX9uUhikpWkgO-E0Eews0mJaDPbQp6yl?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-- Select a semantic segmentation model: UPerNet Unified Perceptual Parsing for Scene Understanding
-- Replabe the ResNet backbone with a new one: ConvNeXt A ConvNet for the 2020s
+- Select a semantic segmentation model: [UPerNet](https://arxiv.org/pdf/1807.10221.pdf) Unified Perceptual Parsing for Scene Understanding
+- Replabe the ResNet backbone with a new one: [ConvNeXt](https://arxiv.org/pdf/2201.03545.pdf) A ConvNet for the 2020s
 - Config the heads.
-- Add a new dataset class.
+- Add a new dataset class: [Scene Understanding Datasets](http://dags.stanford.edu/projects/scenedataset.html)
 - Conduct training and evaluation.
 
 ![res_yolof](images/convnext.png)
