@@ -77,7 +77,7 @@ model.show_result(img, result, out_file='result.jpg', win_name=m_name)
 
 -----
 
-## Design and train your own object semantic segmentor
+## Design and train your own semantic segmentor
 
 <a href="https://colab.research.google.com/drive/1EX9uUhikpWkgO-E0Eews0mJaDPbQp6yl?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
