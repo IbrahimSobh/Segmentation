@@ -4,8 +4,11 @@ Semantic image segmentation is the task of classifying each pixel in an image fr
 
 In this tutorial, you will:
 - Perform inference with 10 well-known semantic segmentors <a href="https://colab.research.google.com/drive/1WJtghM5munkksP2CZQ90fiVTYkSL3e3S?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-- Fine tune semantic segmentors on a custom dataset (to do)
-- Design and train your own object semantic segmentor (to do)
+- Fine tune semantic segmentors on a custom dataset <a href="https://colab.research.google.com/drive/1e6QgCHvfcm54pSSv0Cf4GiUlpNPXoMxv?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+- Design and train your own object semantic segmentor <a href="https://colab.research.google.com/drive/1EX9uUhikpWkgO-E0Eews0mJaDPbQp6yl?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+
+
 
 This work is based on [MMSegmentation](https://github.com/open-mmlab/mmsegmentation): [OpenMMLab](https://github.com/open-mmlab) segmentation toolbox and benchmark.
 
@@ -62,14 +65,29 @@ model.show_result(img, result, out_file='result.jpg', win_name=m_name)
 
 ## Fine tune semantic segmentors on a custom dataset
 
-To do 
+<a href="https://colab.research.google.com/drive/1e6QgCHvfcm54pSSv0Cf4GiUlpNPXoMxv?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+- Select a semantic segmentation model: SEgmentation TRansformer (SETR)
+- Add a new dataset class.
+- Create a config file.
+- Conduct training and evaluation.
+
+![res_yolof](images/setr_arch.png)
+
 
 -----
 
 ## Design and train your own object semantic segmentor
 
-To do 
+<a href="https://colab.research.google.com/drive/1EX9uUhikpWkgO-E0Eews0mJaDPbQp6yl?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+- Select a semantic segmentation model: UPerNet Unified Perceptual Parsing for Scene Understanding
+- Replabe the ResNet backbone with a new one: ConvNeXt A ConvNet for the 2020s
+- Config the heads.
+- Add a new dataset class.
+- Conduct training and evaluation.
+
+![res_yolof](images/convnext.png)
 
 Regards! 
 
