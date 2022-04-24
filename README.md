@@ -1,5 +1,7 @@
 #  Semantic segmentation
 
+![seg_cov](images/segcover.png)
+
 Semantic image segmentation is the task of classifying each pixel in an image from a predefined set of classes.
 
 In this tutorial, you will:
@@ -72,7 +74,7 @@ model.show_result(img, result, out_file='result.jpg', win_name=m_name)
 - Create a config file.
 - Conduct training and evaluation.
 
-![res_yolof](images/setr_arch.png)
+![setr_arch](images/setr_arch.png)
 
 
 -----
@@ -87,7 +89,7 @@ model.show_result(img, result, out_file='result.jpg', win_name=m_name)
 - Add a new dataset class: [Scene Understanding Datasets](http://dags.stanford.edu/projects/scenedataset.html)
 - Conduct training and evaluation.
 
-![res_yolof](images/convnext.png)
+![convnext](images/convnext.png)
 
 Regards! 
 
